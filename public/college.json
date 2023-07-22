@@ -1,0 +1,282 @@
+[
+    {
+        "college_details": {
+            "id": "1",
+            "college_name": "ABC University",
+            "address": "456 Oak Avenue, Townsville, State, Country",
+            "website": "https://www.abcuniversity.edu",
+            "admission_process": {
+                "application_deadline": "2023-10-15",
+                "eligibility_criteria": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "application_requirements": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "admission_procedure": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            "events": [
+                {
+                    "event_name": "Annual Sports Meet",
+                    "date": "2023-09-20",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/events/sports_meet.jpg"
+                },
+                {
+                    "event_name": "Cultural Week",
+                    "date": "2023-11-05",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/events/cultural_week.jpg"
+                }
+            ],
+            "research_works": [
+                {
+                    "research_title": "Environmental Sustainability",
+                    "author": "Michael Johnson",
+                    "publication_date": "2023-05-10",
+                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/research/environment_sustainability.jpg"
+                },
+                {
+                    "research_title": "Data Science in Finance",
+                    "author": "Emily Williams",
+                    "publication_date": "2023-08-28",
+                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/research/data_science_finance.jpg"
+                }
+            ],
+            "sports_categories": [
+                {
+                    "category_name": "Swimming",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/sports/swimming.jpg"
+                },
+                {
+                    "category_name": "Tennis",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/sports/tennis.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "college_details": {
+            "id": "2",
+            "college_name": "LMN College",
+            "address": "789 Pine Street, Villageland, State, Country",
+            "website": "https://www.lmncollege.edu",
+            "admission_process": {
+                "application_deadline": "2023-12-31",
+                "eligibility_criteria": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "application_requirements": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "admission_procedure": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            "events": [
+                {
+                    "event_name": "Tech Symposium",
+                    "date": "2023-10-10",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/events/tech_symposium.jpg"
+                },
+                {
+                    "event_name": "Literary Fest",
+                    "date": "2023-12-15",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/events/literary_fest.jpg"
+                }
+            ],
+            "research_works": [
+                {
+                    "research_title": "Artificial Intelligence Applications",
+                    "author": "Robert Smith",
+                    "publication_date": "2023-07-20",
+                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/research/ai_applications.jpg"
+                },
+                {
+                    "research_title": "Climate Change and Policy",
+                    "author": "Olivia Brown",
+                    "publication_date": "2023-09-05",
+                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/research/climate_change.jpg"
+                }
+            ],
+            "sports_categories": [
+                {
+                    "category_name": "Cricket",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/sports/cricket.jpg"
+                },
+                {
+                    "category_name": "Volleyball",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/sports/volleyball.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "college_details": {
+            "id": "3",
+            "college_name": "PQR Institute of Technology",
+            "address": "101 Elm Road, Hamletown, State, Country",
+            "website": "https://www.pqrit.edu",
+            "admission_process": {
+                "application_deadline": "2023-09-30",
+                "eligibility_criteria": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "application_requirements": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "admission_procedure": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            "events": [
+                {
+                    "event_name": "Science Expo",
+                    "date": "2023-11-12",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/events/science_expo.jpg"
+                },
+                {
+                    "event_name": "Music Festival",
+                    "date": "2023-12-25",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/events/music_festival.jpg"
+                }
+            ],
+            "research_works": [
+                {
+                    "research_title": "Biomedical Engineering Innovations",
+                    "author": "William Anderson",
+                    "publication_date": "2023-06-01",
+                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/research/biomedical_engineering.jpg"
+                },
+                {
+                    "research_title": "Urban Planning and Sustainability",
+                    "author": "Sophia Martinez",
+                    "publication_date": "2023-08-15",
+                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/research/urban_planning.jpg"
+                }
+            ],
+            "sports_categories": [
+                {
+                    "category_name": "Badminton",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/sports/badminton.jpg"
+                },
+                {
+                    "category_name": "Athletics",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/sports/athletics.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "college_details": {
+            "id": "4",
+            "college_name": "EFG College",
+            "address": "222 Maple Lane, Countryside, State, Country",
+            "website": "https://www.efgcollege.edu",
+            "admission_process": {
+                "application_deadline": "2023-11-30",
+                "eligibility_criteria": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "application_requirements": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "admission_procedure": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            "events": [
+                {
+                    "event_name": "Startup Fair",
+                    "date": "2023-10-05",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/events/startup_fair.jpg"
+                },
+                {
+                    "event_name": "Dance Competition",
+                    "date": "2023-12-20",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/events/dance_competition.jpg"
+                }
+            ],
+            "research_works": [
+                {
+                    "research_title": "Robotics and Automation",
+                    "author": "David Wilson",
+                    "publication_date": "2023-09-10",
+                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/research/robotics_automation.jpg"
+                },
+                {
+                    "research_title": "Social Psychology Studies",
+                    "author": "Ava Lee",
+                    "publication_date": "2023-11-01",
+                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/research/social_psychology.jpg"
+                }
+            ],
+            "sports_categories": [
+                {
+                    "category_name": "Table Tennis",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/sports/table_tennis.jpg"
+                },
+                {
+                    "category_name": "Soccer",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/sports/soccer.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "college_details": {
+            "id": "5",
+            "college_name": "STU Arts College",
+            "address": "333 Willow Street, Citytown, State, Country",
+            "website": "https://www.stuartscollege.edu",
+            "admission_process": {
+                "application_deadline": "2023-08-31",
+                "eligibility_criteria": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "application_requirements": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "admission_procedure": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            },
+            "events": [
+                {
+                    "event_name": "Art Exhibition",
+                    "date": "2023-09-25",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/events/art_exhibition.jpg"
+                },
+                {
+                    "event_name": "Film Festival",
+                    "date": "2023-11-08",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/events/film_festival.jpg"
+                }
+            ],
+            "research_works": [
+                {
+                    "research_title": "Literature in Modern Society",
+                    "author": "Sarah Johnson",
+                    "publication_date": "2023-07-15",
+                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/research/literature_society.jpg"
+                },
+                {
+                    "research_title": "Artificial Intelligence and Creativity",
+                    "author": "Daniel Lee",
+                    "publication_date": "2023-09-20",
+                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/research/ai_creativity.jpg"
+                }
+            ],
+            "sports_categories": [
+                {
+                    "category_name": "Golf",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/sports/golf.jpg"
+                },
+                {
+                    "category_name": "Hockey",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                    "image_url": "https://www.example.com/sports/hockey.jpg"
+                }
+            ]
+        }
+    }
+]
