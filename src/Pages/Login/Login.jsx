@@ -38,7 +38,7 @@ const Login = () => {
     signInWithPopup(auth , gitHubProvider)
     .then(result => {
       const user = result.user;
-      
+      console.log(user);
     })
     .catch(error => {
         console.log(error);
@@ -97,12 +97,12 @@ const Login = () => {
                   name="password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  className="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring focus:border-blue-500"
+                  className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring focus:border-blue-500"
                 />
                 <button
                   type="button"
                   onClick={handleTogglePassword}
-                  className="absolute top-1/2 right-3 transform -translate-y-1/2 bg-transparent border-none outline-none focus:outline-none cursor-pointer"
+                  className="absolute transform -translate-y-1/2 bg-transparent border-none outline-none cursor-pointer top-1/2 right-3 focus:outline-none"
                 >
                   {showPassword ? <HiEyeOff size={20} /> : <HiEye size={20} />}
                 </button>
