@@ -78,7 +78,7 @@ const SignUpForm = () => {
           {...register("email", { required: true })}
           name="email"
           placeholder="email"
-          className="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring focus:border-blue-500"
+          className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring focus:border-blue-500"
         />
         {errors.email && (
           <span className="text-red-600">Email is required</span>
@@ -100,9 +100,9 @@ const SignUpForm = () => {
         )}
       </div>
 
-      <div className="md:flex gap-6 mt-4">
+      <div className="gap-6 mt-4 md:flex">
         <div className="md:w-2/4">
-          <label htmlFor="password" className="text-lg font-bold gap-4">
+          <label htmlFor="password" className="gap-4 text-lg font-bold">
             Password
           </label>
           <div className="relative top-3">
@@ -119,7 +119,7 @@ const SignUpForm = () => {
               value={password}
               onChange={handlePasswordChange}
               placeholder="Password"
-              className="w-full px-4 py-2 mb-4 rounded border border-gray-300 focus:outline-none focus:ring focus:border-blue-500"
+              className="w-full px-4 py-2 mb-4 border border-gray-300 rounded focus:outline-none focus:ring focus:border-blue-500"
             />
             {errors.password?.type === "required" && (
               <p className="text-red-600">Password is required</p>
@@ -153,7 +153,7 @@ const SignUpForm = () => {
         </div>
 
         <div className="md:w-2/4">
-          <label htmlFor="confirmPassword" className="text-lg font-bold mb-2">
+          <label htmlFor="confirmPassword" className="mb-2 text-lg font-bold">
             Confirm Password
           </label>
           <div className="relative top-3">
@@ -165,7 +165,7 @@ const SignUpForm = () => {
               value={confirmPassword}
               onChange={handleConfirmPasswordChange}
               placeholder="Confirm Password"
-              className="w-full px-4 py-2 mb-4 rounded border border-gray-300 focus:outline-none focus:ring focus:border-blue-500"
+              className="w-full px-4 py-2 mb-4 border border-gray-300 rounded focus:outline-none focus:ring focus:border-blue-500"
             />
           <p className="text-red-600">{error}</p>
             <button
@@ -185,7 +185,7 @@ const SignUpForm = () => {
 
       <div className="my-4">
         <input
-          className="btn bg-lime-500 hover:bg-lime-700 w-full  hover:text-white"
+          className="w-full bg-blue-500 btn hover:bg-blue-700 hover:text-white"
           type="submit"
           value="Sing Up"
         />

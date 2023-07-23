@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 const About = () => {
   return (
@@ -6,7 +7,7 @@ const About = () => {
         <Helmet>
         <title>College | About</title>
       </Helmet>
-      <h1 className="text-5xl text-center py-8">About College Booking</h1>
+      <h1 className="py-8 text-5xl text-center">About College Booking</h1>
       <p className="max-w-[1250px] mx-auto text-justify md:py-14 text-2xl">
         Welcome to College Booking Facilities, your go-to destination for
         reserving and managing premier facilities and spaces within our esteemed

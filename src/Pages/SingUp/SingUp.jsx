@@ -12,13 +12,13 @@ const SingUp = () => {
       <Helmet>
         <title>College | Sing Up</title>
       </Helmet>
-      <div className="hero-content flex-col lg:flex-row-reverse md:gap-8 mx-auto">
-        <div className=" md:w-2/5 md:m-10 h-full bg-base-200 rounded-lg">
+      <div className="flex-col mx-auto hero-content lg:flex-row-reverse md:gap-8">
+        <div className="h-full rounded-lg md:w-2/5 md:m-10 bg-base-200">
           <SignUpForm />
           <div className="mt-4 text-center">
             <button>
               Already have an account?
-              <Link to="/login" className="text-lime-500 font-bold">
+              <Link to="/login" className="font-bold text-blue-500">
                 Login
               </Link>
             </button>
@@ -28,6 +28,13 @@ const SingUp = () => {
           >
             <FcGoogle className="text-[32px]" />
             <span>Continue with Google</span>
+          </div>
+          <div
+            onClick={handleGitHubSingIn}
+            className="p-[10px] bg-blue-200 cursor-pointer border rounded w-full flex justify-center items-center gap-[6px] mt-[33px]"
+          >
+            <BsGithub className="text-[32px]" />
+            <span>Continue with GitHub</span>
           </div>
         </div>
       </div>
