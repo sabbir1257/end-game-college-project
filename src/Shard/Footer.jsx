@@ -8,10 +8,10 @@ const Footer = () => {
     return (
         <footer className="p-10 rounded footer footer-center bg-base-200 text-base-content">
   <div className="grid grid-flow-col gap-4">
-    <Link className="link link-hover">About</Link> 
-    <Link className="link link-hover">Colleges</Link> 
-    <Link className="link link-hover">Admission</Link> 
-    <Link className="link link-hover">My College</Link>
+    <Link to="/about" className="link link-hover">About</Link> 
+    <Link to="/colleges" className="link link-hover">Colleges</Link> 
+    <Link to="/admission" className="link link-hover">Admission</Link> 
+    <Link to="my-college" className="link link-hover">My College</Link>
   </div> 
   <div>
     <div className="grid grid-flow-col gap-4">

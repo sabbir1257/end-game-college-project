@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import Hero from "../Header/Hero";
 import Gallry from "./Gallry";
 import Marque from "./Marque";
+import HomeCollege from "./HomeCollege";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         <title>College | Home</title>
       </Helmet>
       <Hero/>
+        <HomeCollege/>
       <Gallry/>
       <Marque/>
     </div>

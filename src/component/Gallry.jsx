@@ -13,8 +13,8 @@ import img9 from '../assets/gallry/gallry9.jpg'
 const Gallry = () => {
     return (
        <div>
-        <h1 className='pt-8 text-5xl text-center'>Gallery</h1>
-         <ResponsiveMasonry className='max-w-[1700px] mx-auto my-12'
+        <h1 className='pt-8 text-5xl font-bold text-center'>Our Gallery</h1>
+         <ResponsiveMasonry className='max-w-[1250px] mx-auto my-12'
                 columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}
             >
                 <Masonry>
