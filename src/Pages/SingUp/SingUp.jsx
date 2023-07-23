@@ -3,9 +3,19 @@ import { FcGoogle } from "react-icons/fc";
 import { Link  } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import SignUpForm from "./SingUpForm";
+import { BsGithub } from "react-icons/bs";
 
 const SingUp = () => {
-
+  const handleGitHubSingIn = () => {
+    signInWithPopup(auth , gitHubProvider)
+    .then(result => {
+      const user = result.user;
+      console.log(user);
+    })
+    .catch(error => {
+        console.log(error);
+    })
+  }
 
   return (
     <>
@@ -24,17 +34,9 @@ const SingUp = () => {
             </button>
           </div>
           <div
-            className="p-[10px] mb-8 bg-blue-200 cursor-pointer border rounded-lg w-4/5 md:w-2/4  mx-auto flex gap-[6px] mt-[33px]"
-          >
+            className="p-[10px] mb-8 bg-blue-200 cursor-pointer border rounded-lg w-4/5 md:w-2/4  mx-auto flex gap-[6px] mt-[30px]">
             <FcGoogle className="text-[32px]" />
             <span>Continue with Google</span>
-          </div>
-          <div
-            onClick={handleGitHubSingIn}
-            className="p-[10px] bg-blue-200 cursor-pointer border rounded w-full flex justify-center items-center gap-[6px] mt-[33px]"
-          >
-            <BsGithub className="text-[32px]" />
-            <span>Continue with GitHub</span>
           </div>
         </div>
       </div>

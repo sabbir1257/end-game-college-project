@@ -1,0 +1,80 @@
+[
+    {
+        "_id": "64bb8b0517a4f37d295d5dc4",
+        "collegeImage": "https://i.ibb.co/GMCcZdL/1912-Vin-Uni-Campus-800x533.jpg",
+        "collegeName": "University of Excellence",
+        "admissionProcess": "Prospective students can apply online through the university's official website. The application deadline for the fall semester is August 15, 2023, and for the spring semester, it is December 15, 2023. Applicants are required to submit their academic transcripts, letters of recommendation, a statement of purpose, and any standardized test scores.",
+        "number_of_research": "630",
+        "admissionDates": {
+          "fall": "2023-09-01",
+          "spring": "2024-01-15"
+        },
+        "events": [
+          "Freshers Welcome Party",
+          "Annual Cultural Fest",
+          "Career Fair",
+          "Science Exhibition"
+        ],
+        "researchHistory": "Founded in 1950, University of Excellence has a rich history of groundbreaking research in various fields, including medicine, engineering, and social sciences.",
+        "sports": [
+          "Football",
+          "Basketball",
+          "Swimming",
+          "Tennis",
+          "Track and Field"
+        ],
+        "rating": "4",
+        "reviewDescription": "An institution that truly lives up to its name, the University of Excellence offers a world-class education, outstanding faculty, and a nurturing environment for personal growth."
+      },
+      {
+        "_id": "64bb8b0517a4f37d295d5dc5",
+        "collegeImage": "https://i.ibb.co/8rC8BMw/download-5.jpg",
+        "collegeName": "Tech Institute",
+        "admissionProcess": "Tech Institute accepts applications through its online admission portal. The deadline for the fall semester is July 31, 2023, and for the spring semester, it is December 15, 2023. Prospective students need to complete the online application, submit their academic records, statement of purpose, and letters of recommendation. Standardized test scores may be required depending on the program.",
+        "number_of_research": "600",
+        "admissionDates": {
+          "fall": "2023-08-15",
+          "spring": "2024-01-10"
+        },
+        "events": [
+          "Hackathon",
+          "Tech Symposium",
+          "Robotics Competition",
+          "Innovation Expo"
+        ],
+        "researchHistory": "Tech Institute is known for its cutting-edge research in computer science, artificial intelligence, and nanotechnology.",
+        "sports": [
+          "Cricket",
+          "Badminton",
+          "Volleyball",
+          "Table Tennis",
+          "Chess"
+        ],
+        "rating": "5",
+        "reviewDescription": "thisn This Collage is an exceptional institution that excels in providing a comprehensive and enriching educational experience to its students. As an alumna/alumnus, I am delighted to share my review of this esteemed institution, which has left an indelible mark on my personal and professional development."
+      },
+      {
+        "_id": "64bb8b0517a4f37d295d5dc6",
+        "collegeImage": "https://i.ibb.co/vZtMKhg/download-6.jpg",
+        "collegeName": "Arts Academy",
+        "admissionProcess": "To apply to Arts Academy, students must complete an online application form and submit it along with their artistic portfolio or audition tape, academic records, and recommendation letters. The application deadline for the fall semester is July 15, 2023, and for the spring semester, it is December 1, 2023. Prospective students are also encouraged to participate in an entrance examination or interview.",
+        "number_of_research": "426",
+        "admissionDates": {
+          "fall": "2023-07-30",
+          "spring": "2024-01-20"
+        },
+        "events": [
+          "Art Exhibition",
+          "Theater Festival",
+          "Literary Symposium",
+          "Film Screening"
+        ],
+        "researchHistory": "Arts Academy has a long tradition of fostering creativity and producing renowned artists, writers, and performers.",
+        "sports": [
+          "Basketball",
+          "Soccer",
+          "Gymnastics",
+          "Athletics"
+        ]
+      }
+]

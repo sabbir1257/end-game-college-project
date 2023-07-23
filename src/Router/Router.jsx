@@ -4,6 +4,9 @@ import Home from "../component/Home";
 import Login from "../Pages/Login/Login";
 import SingUp from "../Pages/SingUp/SingUp";
 import About from "../Pages/About";
+import College from "../Pages/College";
+import Admission from "../Pages/Admission";
+import MyCollege from "../Pages/MyCollege";
 
 
 const router = createBrowserRouter([
@@ -26,6 +29,18 @@ const router = createBrowserRouter([
         {
           path: '/about',
           element: <About/>
+        },
+        {
+          path: '/colleges',
+          element: <College/>
+        },
+        {
+          path: '/admission',
+          element: <Admission/>
+        },
+        {
+          path: '/my-college',
+          element: <MyCollege/>
         }
       ]
     },

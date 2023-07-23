@@ -24,7 +24,7 @@ const Navbar = () => {
         <Link to="/colleges">Colleges</Link>
       </li>
       <li>
-        <Link tp="/admission">Admission</Link>
+        <Link to="/admission">Admission</Link>
       </li>
       <li>
         <Link to="/my-college">My College</Link>
@@ -66,7 +66,7 @@ const Navbar = () => {
         <ul className="px-1 menu menu-horizontal">{navigate}</ul>
       </div>
       <div className="navbar-end">
-        <div className="form-control px-3">
+        <div className="px-3 form-control">
           <div className="input-group">
             <input
               type="text"
@@ -76,7 +76,7 @@ const Navbar = () => {
             <button className="btn btn-square">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
+                className="w-6 h-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"

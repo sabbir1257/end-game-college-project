@@ -1,282 +1,156 @@
 [
     {
-        "college_details": {
-            "id": "1",
-            "college_name": "ABC University",
-            "address": "456 Oak Avenue, Townsville, State, Country",
-            "website": "https://www.abcuniversity.edu",
-            "admission_process": {
-                "application_deadline": "2023-10-15",
-                "eligibility_criteria": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "application_requirements": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "admission_procedure": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            },
-            "events": [
-                {
-                    "event_name": "Annual Sports Meet",
-                    "date": "2023-09-20",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/events/sports_meet.jpg"
-                },
-                {
-                    "event_name": "Cultural Week",
-                    "date": "2023-11-05",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/events/cultural_week.jpg"
-                }
-            ],
-            "research_works": [
-                {
-                    "research_title": "Environmental Sustainability",
-                    "author": "Michael Johnson",
-                    "publication_date": "2023-05-10",
-                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/research/environment_sustainability.jpg"
-                },
-                {
-                    "research_title": "Data Science in Finance",
-                    "author": "Emily Williams",
-                    "publication_date": "2023-08-28",
-                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/research/data_science_finance.jpg"
-                }
-            ],
-            "sports_categories": [
-                {
-                    "category_name": "Swimming",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/sports/swimming.jpg"
-                },
-                {
-                    "category_name": "Tennis",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/sports/tennis.jpg"
-                }
-            ]
-        }
-    },
-    {
-        "college_details": {
-            "id": "2",
-            "college_name": "LMN College",
-            "address": "789 Pine Street, Villageland, State, Country",
-            "website": "https://www.lmncollege.edu",
-            "admission_process": {
-                "application_deadline": "2023-12-31",
-                "eligibility_criteria": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "application_requirements": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "admission_procedure": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            },
-            "events": [
-                {
-                    "event_name": "Tech Symposium",
-                    "date": "2023-10-10",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/events/tech_symposium.jpg"
-                },
-                {
-                    "event_name": "Literary Fest",
-                    "date": "2023-12-15",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/events/literary_fest.jpg"
-                }
-            ],
-            "research_works": [
-                {
-                    "research_title": "Artificial Intelligence Applications",
-                    "author": "Robert Smith",
-                    "publication_date": "2023-07-20",
-                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/research/ai_applications.jpg"
-                },
-                {
-                    "research_title": "Climate Change and Policy",
-                    "author": "Olivia Brown",
-                    "publication_date": "2023-09-05",
-                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/research/climate_change.jpg"
-                }
-            ],
-            "sports_categories": [
-                {
-                    "category_name": "Cricket",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/sports/cricket.jpg"
-                },
-                {
-                    "category_name": "Volleyball",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/sports/volleyball.jpg"
-                }
-            ]
-        }
-    },
-    {
-        "college_details": {
-            "id": "3",
-            "college_name": "PQR Institute of Technology",
-            "address": "101 Elm Road, Hamletown, State, Country",
-            "website": "https://www.pqrit.edu",
-            "admission_process": {
-                "application_deadline": "2023-09-30",
-                "eligibility_criteria": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "application_requirements": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "admission_procedure": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            },
-            "events": [
-                {
-                    "event_name": "Science Expo",
-                    "date": "2023-11-12",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/events/science_expo.jpg"
-                },
-                {
-                    "event_name": "Music Festival",
-                    "date": "2023-12-25",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/events/music_festival.jpg"
-                }
-            ],
-            "research_works": [
-                {
-                    "research_title": "Biomedical Engineering Innovations",
-                    "author": "William Anderson",
-                    "publication_date": "2023-06-01",
-                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/research/biomedical_engineering.jpg"
-                },
-                {
-                    "research_title": "Urban Planning and Sustainability",
-                    "author": "Sophia Martinez",
-                    "publication_date": "2023-08-15",
-                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/research/urban_planning.jpg"
-                }
-            ],
-            "sports_categories": [
-                {
-                    "category_name": "Badminton",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/sports/badminton.jpg"
-                },
-                {
-                    "category_name": "Athletics",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/sports/athletics.jpg"
-                }
-            ]
-        }
-    },
-    {
-        "college_details": {
-            "id": "4",
-            "college_name": "EFG College",
-            "address": "222 Maple Lane, Countryside, State, Country",
-            "website": "https://www.efgcollege.edu",
-            "admission_process": {
-                "application_deadline": "2023-11-30",
-                "eligibility_criteria": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "application_requirements": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "admission_procedure": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            },
-            "events": [
-                {
-                    "event_name": "Startup Fair",
-                    "date": "2023-10-05",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/events/startup_fair.jpg"
-                },
-                {
-                    "event_name": "Dance Competition",
-                    "date": "2023-12-20",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/events/dance_competition.jpg"
-                }
-            ],
-            "research_works": [
-                {
-                    "research_title": "Robotics and Automation",
-                    "author": "David Wilson",
-                    "publication_date": "2023-09-10",
-                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/research/robotics_automation.jpg"
-                },
-                {
-                    "research_title": "Social Psychology Studies",
-                    "author": "Ava Lee",
-                    "publication_date": "2023-11-01",
-                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/research/social_psychology.jpg"
-                }
-            ],
-            "sports_categories": [
-                {
-                    "category_name": "Table Tennis",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/sports/table_tennis.jpg"
-                },
-                {
-                    "category_name": "Soccer",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/sports/soccer.jpg"
-                }
-            ]
-        }
-    },
-    {
-        "college_details": {
-            "id": "5",
-            "college_name": "STU Arts College",
-            "address": "333 Willow Street, Citytown, State, Country",
-            "website": "https://www.stuartscollege.edu",
-            "admission_process": {
-                "application_deadline": "2023-08-31",
-                "eligibility_criteria": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "application_requirements": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "admission_procedure": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            },
-            "events": [
-                {
-                    "event_name": "Art Exhibition",
-                    "date": "2023-09-25",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/events/art_exhibition.jpg"
-                },
-                {
-                    "event_name": "Film Festival",
-                    "date": "2023-11-08",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/events/film_festival.jpg"
-                }
-            ],
-            "research_works": [
-                {
-                    "research_title": "Literature in Modern Society",
-                    "author": "Sarah Johnson",
-                    "publication_date": "2023-07-15",
-                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/research/literature_society.jpg"
-                },
-                {
-                    "research_title": "Artificial Intelligence and Creativity",
-                    "author": "Daniel Lee",
-                    "publication_date": "2023-09-20",
-                    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/research/ai_creativity.jpg"
-                }
-            ],
-            "sports_categories": [
-                {
-                    "category_name": "Golf",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/sports/golf.jpg"
-                },
-                {
-                    "category_name": "Hockey",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                    "image_url": "https://www.example.com/sports/hockey.jpg"
-                }
-            ]
-        }
-    }
+        "_id": "64bb8b0517a4f37d295d5dc4",
+        "collegeImage": "https://i.ibb.co/GMCcZdL/1912-Vin-Uni-Campus-800x533.jpg",
+        "collegeName": "University of Excellence",
+        "admissionProcess": "Prospective students can apply online through the university's official website. The application deadline for the fall semester is August 15, 2023, and for the spring semester, it is December 15, 2023. Applicants are required to submit their academic transcripts, letters of recommendation, a statement of purpose, and any standardized test scores.",
+        "number_of_research": "630",
+        "admissionDates": {
+          "fall": "2023-09-01",
+          "spring": "2024-01-15"
+        },
+        "events": [
+          "Freshers Welcome Party",
+          "Annual Cultural Fest",
+          "Career Fair",
+          "Science Exhibition"
+        ],
+        "researchHistory": "Founded in 1950, University of Excellence has a rich history of groundbreaking research in various fields, including medicine, engineering, and social sciences.",
+        "sports": [
+          "Football",
+          "Basketball",
+          "Swimming",
+          "Tennis",
+          "Track and Field"
+        ],
+        "rating": "4",
+        "reviewDescription": "An institution that truly lives up to its name, the University of Excellence offers a world-class education, outstanding faculty, and a nurturing environment for personal growth."
+      },
+      {
+        "_id": "64bb8b0517a4f37d295d5dc5",
+        "collegeImage": "https://i.ibb.co/8rC8BMw/download-5.jpg",
+        "collegeName": "Tech Institute",
+        "admissionProcess": "Tech Institute accepts applications through its online admission portal. The deadline for the fall semester is July 31, 2023, and for the spring semester, it is December 15, 2023. Prospective students need to complete the online application, submit their academic records, statement of purpose, and letters of recommendation. Standardized test scores may be required depending on the program.",
+        "number_of_research": "600",
+        "admissionDates": {
+          "fall": "2023-08-15",
+          "spring": "2024-01-10"
+        },
+        "events": [
+          "Hackathon",
+          "Tech Symposium",
+          "Robotics Competition",
+          "Innovation Expo"
+        ],
+        "researchHistory": "Tech Institute is known for its cutting-edge research in computer science, artificial intelligence, and nanotechnology.",
+        "sports": [
+          "Cricket",
+          "Badminton",
+          "Volleyball",
+          "Table Tennis",
+          "Chess"
+        ],
+        "rating": "5",
+        "reviewDescription": "this\nThis Collage is an exceptional institution that excels in providing a comprehensive and enriching educational experience to its students. As an alumna/alumnus, I am delighted to share my review of this esteemed institution, which has left an indelible mark on my personal and professional development."
+      },
+      {
+        "_id": "64bb8b0517a4f37d295d5dc6",
+        "collegeImage": "https://i.ibb.co/vZtMKhg/download-6.jpg",
+        "collegeName": "Arts Academy",
+        "admissionProcess": "To apply to Arts Academy, students must complete an online application form and submit it along with their artistic portfolio or audition tape, academic records, and recommendation letters. The application deadline for the fall semester is July 15, 2023, and for the spring semester, it is December 1, 2023. Prospective students are also encouraged to participate in an entrance examination or interview.",
+        "number_of_research": "426",
+        "admissionDates": {
+          "fall": "2023-07-30",
+          "spring": "2024-01-20"
+        },
+        "events": [
+          "Art Exhibition",
+          "Theater Festival",
+          "Literary Symposium",
+          "Film Screening"
+        ],
+        "researchHistory": "Arts Academy has a long tradition of fostering creativity and producing renowned artists, writers, and performers.",
+        "sports": [
+          "Basketball",
+          "Soccer",
+          "Gymnastics",
+          "Athletics"
+        ]
+      },
+      {
+        "_id": "64bb8b0517a4f37d295d5dc7",
+        "collegeImage": "https://i.ibb.co/vLg7tY9/download-7.jpg",
+        "collegeName": "Medical University",
+        "admissionProcess": "Medical University has a competitive admission process. Prospective medical students must complete an online application and submit their academic transcripts, letters of recommendation, and a personal statement expressing their interest in medicine. The application deadline for the fall semester is July 1, 2023, and for the spring semester, it is December 1, 2023. Additionally, applicants are required to take the Medical College Admission Test (MCAT) and participate in an interview.",
+        "number_of_research": "634",
+        "admissionDates": {
+          "fall": "2023-08-01",
+          "spring": "2024-02-10"
+        },
+        "events": [
+          "White Coat Ceremony",
+          "Medical Conference",
+          "Health Awareness Week",
+          "Research Symposium"
+        ],
+        "researchHistory": "Medical University is renowned for its groundbreaking research in medicine, healthcare, and biotechnology.",
+        "sports": [
+          "Swimming",
+          "Tennis",
+          "Volleyball",
+          "Badminton"
+        ],
+        "rating": "5",
+        "reviewDescription": "Aspiring medical professionals find their calling at the Medical University, where top-notch training, state-of-the-art facilities, and compassionate mentorship are the norm."
+      },
+      {
+        "_id": "64bb8b0517a4f37d295d5dc8",
+        "collegeImage": "https://i.ibb.co/Ny4FM0q/5d373c7f100a244661598bb3.webp",
+        "collegeName": "Business School",
+        "admissionProcess": "Prospective students applying to the Business School must complete an online application form and submit their academic transcripts, resume, letters of recommendation, and a statement of purpose outlining their career goals. The application deadline for the fall semester is August 31, 2023, and for the spring semester, it is December 15, 2023. Depending on the program, applicants may also need to submit GMAT or GRE scores.",
+        "number_of_research": "520",
+        "admissionDates": {
+          "fall": "2023-09-15",
+          "spring": "2024-01-05"
+        },
+        "events": [
+          "Business Plan Competition",
+          "Entrepreneurship Summit",
+          "Leadership Workshop",
+          "Industry Networking Event"
+        ],
+        "researchHistory": "Business School is a pioneer in business research, economics, and finance, with notable contributions to the field.",
+        "sports": [
+          "Soccer",
+          "Basketball",
+          "Tennis",
+          "Chess"
+        ],
+        "rating": "5",
+        "reviewDescription": "The Business School is a hub of business acumen and entrepreneurship, guiding students towards success in the corporate world with a global outlook."
+      },
+      {
+        "_id": "64bb8b0517a4f37d295d5dc9",
+        "collegeImage": "https://i.ibb.co/bNh8tHZ/download-8.jpg",
+        "collegeName": "Engineering Institute",
+        "admissionProcess": "Engineering Institute's admission process involves an online application and submission of academic records, recommendation letters, and a statement of purpose. The application deadline for the fall semester is August 1, 2023, and for the spring semester, it is December 1, 2023. Depending on the program, applicants may need to take the GRE or other relevant standardized tests. Shortlisted candidates will be called for an interview.",
+        "number_of_research": "320",
+        "admissionDates": {
+          "fall": "2023-08-20",
+          "spring": "2024-01-25"
+        },
+        "events": [
+          "Engineering Expo",
+          "Robotics Showcase",
+          "Tech Symposium",
+          "Hackathon"
+        ],
+        "researchHistory": "Engineering Institute is at the forefront of technological research, specializing in robotics, AI, and sustainable energy.",
+        "sports": [
+          "Cricket",
+          "Football",
+          "Volleyball",
+          "Athletics"
+        ]
+      }
 ]
