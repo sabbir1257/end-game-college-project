@@ -9,7 +9,7 @@ const CollegeViewDetails = () => {
     const [viewCard, setViewCards] = useState([])
 
     useEffect(() => {
-        fetch(`http://localhost:5000/viewCollege/${id}`)
+        fetch(`https://server-peach-eta.vercel.app/viewCollege/${id}`)
             .then(res => res.json())
             .then(data => setViewCards(data))
     }, [id])

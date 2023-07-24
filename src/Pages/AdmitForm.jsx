@@ -27,7 +27,7 @@ const AdmitForm = () => {
     };
     console.log(myCollege);
 
-    fetch("http://localhost:5000/myCollege", {
+    fetch("https://server-peach-eta.vercel.app/myCollege", {
       method: "POST",
       headers: {
         "content-type": "application/json",
