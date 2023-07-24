@@ -69,7 +69,7 @@ const Login = () => {
           <div>
             <label
               for="email"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              className="block mb-2 font-bold text-gray-700"
             >
               Your email
             </label>
