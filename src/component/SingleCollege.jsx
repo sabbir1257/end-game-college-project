@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SingleCollege = ({singleData}) => {
     const {collegeImage , collegeName, admissionDates , events , sports, researchHistory } = singleData;
@@ -18,7 +19,7 @@ const SingleCollege = ({singleData}) => {
         <p>{sports}</p>
         <h1><span className="font-bold text-justify">Research History:</span>{researchHistory}</h1>
         <div className="justify-end card-actions">
-          <button className="btn btn-primary">View Details</button>
+        <button className="bg-[#05b6d1] block mx-auto my-6 w-full p-3 rounded-md hover:bg-[#0b96ac] duration-300 text-white font-semibold"><Link to="/colleges">View Details</Link></button>
         </div>
       </div>
     </div>
