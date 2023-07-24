@@ -5,7 +5,7 @@ import { AuthContext } from "../Providers/AuthProvider";
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
-
+  
   const handleLogOut = () => {
     logOut()
       .then(() => {})
@@ -28,6 +28,18 @@ const Navbar = () => {
       </li>
       <li>
         <Link to="/my-college">My College</Link>
+      </li>
+      <li>
+      {user?.photoURL ? (
+        <img
+          className="w-[35px] h-[35px] rounded-full"
+          src={user.photoURL}
+          title={user.displayName}
+          alt=""
+        />
+      ) : (
+        <></>
+      )}
       </li>
     </>
   );
