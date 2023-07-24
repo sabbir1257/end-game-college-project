@@ -16,7 +16,7 @@ const SingleCollegeCard = ({singleData}) => {
         <p>Number Of Research: {number_of_research}</p>
         <p>Rating: {rating}</p>
         <div className="justify-end card-actions">
-          <button className="btn btn-primary">Buy Now</button>
+          <button className="btn btn-primary">View Details</button>
         </div>
       </div>
     </div>

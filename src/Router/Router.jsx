@@ -7,12 +7,14 @@ import About from "../Pages/About";
 import College from "../Pages/College";
 import Admission from "../Pages/Admission";
 import MyCollege from "../Pages/MyCollege";
+import Error from "../Pages/Error";
 
 
 const router = createBrowserRouter([
     {
       path: "/",
       element: <App/>,
+      errorElement: <Error/>,
       children: [
         {
             path: '/',

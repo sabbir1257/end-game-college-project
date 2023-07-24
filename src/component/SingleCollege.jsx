@@ -18,7 +18,7 @@ const SingleCollege = ({singleData}) => {
         <p>{sports}</p>
         <h1><span className="font-bold text-justify">Research History:</span>{researchHistory}</h1>
         <div className="justify-end card-actions">
-          <button className="btn btn-primary">Buy Now</button>
+          <button className="btn btn-primary">View Details</button>
         </div>
       </div>
     </div>
