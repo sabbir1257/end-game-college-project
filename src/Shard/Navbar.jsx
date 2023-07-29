@@ -29,7 +29,7 @@ const Navbar = () => {
       <li>
         <Link to="/my-college">My College</Link>
       </li>
-      <li>
+      
       {user?.photoURL ? (
         <img
           className="w-[35px] h-[35px] rounded-full"
@@ -40,7 +40,7 @@ const Navbar = () => {
       ) : (
         <></>
       )}
-      </li>
+      
     </>
   );
   return (

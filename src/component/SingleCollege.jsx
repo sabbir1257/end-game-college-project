@@ -19,7 +19,7 @@ const SingleCollege = ({singleData}) => {
         <p>{sports}</p>
         <h1><span className="font-bold text-justify">Research History:</span>{researchHistory}</h1>
         <div className="justify-end card-actions">
-        <button className="bg-[#05b6d1] block mx-auto my-6 w-full p-3 rounded-md hover:bg-[#0b96ac] duration-300 text-white font-semibold"><Link to="/colleges">View Details</Link></button>
+        <button className="block w-full p-3 mx-auto my-6 font-semibold text-white duration-300 bg-blue-500 rounded-md hover:bg-blue-500"><Link to="/colleges">View Details</Link></button>
         </div>
       </div>
     </div>

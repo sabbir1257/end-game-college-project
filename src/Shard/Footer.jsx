@@ -15,9 +15,9 @@ const Footer = () => {
   </div> 
   <div>
     <div className="grid grid-flow-col gap-4">
-      <Link><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" className="fill-current"><BsTwitter/></svg></Link> 
-      <Link><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" className="fill-current"><FaGithub/></svg></Link> 
-      <Link><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" className="fill-current"><FaFacebookF/></svg></Link>
+      <Link to="https://twitter.com/masabbir1257"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" className="fill-current"><BsTwitter/></svg></Link> 
+      <Link tp="https://github.com/sabbir1257"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" className="fill-current"><FaGithub/></svg></Link> 
+      <Link to="https://www.facebook.com/sabbir.sorkar.359/"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" className="fill-current"><FaFacebookF/></svg></Link>
     </div>
   </div> 
   <div>

@@ -49,7 +49,7 @@ const AdmitForm = () => {
   };
 
   return (
-    <div class="max-w-[740px] mt-10 mx-auto bg-slate-100 rounded-md">
+    <div className="max-w-[740px] mt-10 mx-auto bg-slate-100 rounded-md">
       <div className="px-8 py-4">
         <form onSubmit={handleSubmit}>
           <label className="font-semibold">Name</label>
@@ -133,7 +133,7 @@ const AdmitForm = () => {
           />
           <br />
           <input
-            className="block mx-auto bg-[#05b6d1] w-full p-3 mt-4 text-white rounded-md font-bold cursor-pointer"
+            className="block w-full p-3 mx-auto mt-4 font-bold text-white rounded-md cursor-pointer"
             type="submit"
             value="Submit"
           />

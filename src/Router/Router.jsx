@@ -10,6 +10,7 @@ import MyCollege from "../Pages/MyCollege";
 import Error from "../Pages/Error";
 import AdmitForm from "../Pages/AdmitForm";
 import CollegeViewDetails from "../Pages/CollegeViewDetails";
+import PrivateRoute from "../Providers/PrivateRoute";
 
 const router = createBrowserRouter([
   {
@@ -39,11 +40,19 @@ const router = createBrowserRouter([
       },
       {
         path: "/admission",
-        element: <Admission />,
+        element: (
+          <PrivateRoute>
+            <Admission />
+          </PrivateRoute>
+        ),
       },
       {
         path: "/my-college",
-        element: <MyCollege />,
+        element: (
+          <PrivateRoute>
+            <MyCollege />
+          </PrivateRoute>
+        ),
       },
       {
         path: "/college-view/:id",

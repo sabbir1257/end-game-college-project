@@ -17,7 +17,7 @@ const SingleCollegeCard = ({singleData}) => {
         <p>Number Of Research: {number_of_research}</p>
         <p>Rating: {rating}</p>
         <div className="justify-end card-actions">
-        <button className="bg-[#05b6d1] block mx-auto my-6 w-full p-3 rounded-md hover:bg-[#0b96ac] duration-300 text-white font-semibold"><Link to={`/college-view/${_id}`}>View Details</Link></button>
+        <button className="block w-full p-3 mx-auto my-6 font-semibold text-white duration-300 bg-blue-500 rounded-md hover:bg-blue-500"><Link to={`/college-view/${_id}`}>View Details</Link></button>
         </div>
       </div>
     </div>

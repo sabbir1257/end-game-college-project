@@ -17,9 +17,9 @@ const CollegeViewDetails = () => {
     const { collegeImage, events, sports, collegeName, rating, admissionDates } = viewCard;
     return (
         <div className="max-w-[1240px] mx-auto mt-16 px-3">
-            <h1 className="text-center mt-20 mb-16 text-3xl font-bold">Top Rated Colleges in USA</h1>
+            <h1 className="mt-20 mb-16 text-3xl font-bold text-center">Top Rated Colleges in USA</h1>
             <div>
-                <div  className="grid md:grid-cols-2 gap-6 border p-4 rounded-md">
+                <div  className="grid gap-6 p-4 border rounded-md md:grid-cols-2">
                     <img className="rounded-md md:h-[400px]" src={collegeImage} alt="" />
                     <div>
                         <h1 className="my-4 text-xl font-bold">Name: {collegeName}</h1>

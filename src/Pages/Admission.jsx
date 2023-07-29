@@ -8,14 +8,13 @@ const Admission = () => {
       .then((res) => res.json())
       .then((dat) => setData(dat));
   }, []);
-  console.log(data);
   let count = 1;
   return (
-    <div className="max-w-[1240px] mx-auto mt-10">
+    <div className="max-w-[1240px] mx-auto my-10">
       <div className="overflow-x-auto ">
         <table className="table ">
           {/* head */}
-          <thead className="text-center bg-slate-600 text-white mb-6 uppercase">
+          <thead>
             <tr>
               <th>SL.No</th>
               <th>College Name</th>
@@ -24,25 +23,21 @@ const Admission = () => {
               <th>Admission Success</th>
             </tr>
           </thead>
+
           <tbody>
-            {/* row 1 */}
-            {data?.map((item, index) => (
-              <>
-                <tr className="bg-sky-100 text-center mb-6">
-                  <th>{count++}</th>
-                  <td>{item?.collegeName}</td>
-                  <td>{item?.rating}</td>
-                  <td>{item?.admissionDates}</td>
-                  <td>
-                    <Link to="/admitForm">
-                      <button className="border  p-3  font-bold duration-300 bg-[#05b6d1] hover:text-white rounded-md">
-                        Apply Now
-                      </button>
-                    </Link>
-                  </td>
-                </tr>
-              </>
-            ))}
+          {data?.map((item, index) => (
+            <tr>
+              <th>{count++}</th>
+              <td>{item?.collegeName}</td>
+              <td>{item?.rating}</td>
+              <td>{item?.admissionDates}</td>
+              <th>
+                <Link to="/admitForm">
+                <button className="btn btn-ghost btn-xs">Apply Now</button>
+                </Link>
+              </th>
+            </tr>
+             ))}
           </tbody>
         </table>
       </div>
