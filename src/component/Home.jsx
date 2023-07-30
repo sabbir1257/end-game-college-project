@@ -4,6 +4,7 @@ import Hero from "../Header/Hero";
 import Gallry from "./Gallry";
 import Marque from "./Marque";
 import HomeCollege from "./HomeCollege";
+import Contact from "../Pages/Contact";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Hero/>
         <HomeCollege/>
       <Gallry/>
+      <Contact/>
       <Marque/>
     </div>
   );

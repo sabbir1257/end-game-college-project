@@ -11,6 +11,7 @@ const Admission = () => {
   let count = 1;
   return (
     <div className="max-w-[1240px] mx-auto my-10">
+      <h1 className="py-4 my-8 text-5xl text-center">Admission</h1>
       <div className="overflow-x-auto ">
         <table className="table ">
           {/* head */}
@@ -33,7 +34,7 @@ const Admission = () => {
               <td>{item?.admissionDates}</td>
               <th>
                 <Link to="/admitForm">
-                <button className="btn btn-ghost btn-xs">Apply Now</button>
+                <button className="btn btn-outline btn-primary">Apply Now</button>
                 </Link>
               </th>
             </tr>

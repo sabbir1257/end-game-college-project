@@ -7,8 +7,8 @@ const About = () => {
         <Helmet>
         <title>College | About</title>
       </Helmet>
-      <h1 className="py-8 text-5xl text-center">About College Booking</h1>
-      <p className="max-w-[1250px] mx-auto text-justify md:py-14 text-2xl">
+      <h1 className="py-4 text-5xl text-center">About College Booking</h1>
+      <p className="max-w-[1250px] mx-auto text-justify md:py-8 text-2xl">
         Welcome to College Booking Facilities, your go-to destination for
         reserving and managing premier facilities and spaces within our esteemed
         college campus. Our mission is to cultivate a vibrant and inclusive

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo1.png";
 import { AuthContext } from "../Providers/AuthProvider";
 
 const Navbar = () => {
@@ -14,20 +14,20 @@ const Navbar = () => {
 
   const navigate = (
     <>
-      <li>
-        <Link to="/">Home</Link>
+      <li className="hover:bg-[rgb(87,13,248)] rounded-lg">
+        <Link className="hover:text-white" to="/">Home</Link>
       </li>
-      <li>
-        <Link to="/about">About</Link>
+      <li className="hover:bg-[rgb(87,13,248)] rounded-lg">
+        <Link className="hover:text-white" to="/about">About</Link>
       </li>
-      <li>
-        <Link to="/colleges">Colleges</Link>
+      <li className="hover:bg-[rgb(87,13,248)] rounded-lg">
+        <Link className="hover:text-white" to="/colleges">Colleges</Link>
       </li>
-      <li>
-        <Link to="/admission">Admission</Link>
+      <li className="hover:bg-[rgb(87,13,248)] rounded-lg">
+        <Link className="hover:text-white" to="/admission">Admission</Link>
       </li>
-      <li>
-        <Link to="/my-college">My College</Link>
+      <li className="hover:bg-[rgb(87,13,248)] rounded-lg">
+        <Link className="hover:text-white" to="/my-college">My College</Link>
       </li>
       
       {user?.photoURL ? (
@@ -71,7 +71,8 @@ const Navbar = () => {
           </ul>
         </div>
         <Link className="text-xl normal-case btn btn-ghost">
-          <img src={logo} alt="" />
+          <img className="w-14" src={logo} alt="" />
+          <p></p>
         </Link>
       </div>
       <div className="hidden navbar-center lg:flex">
@@ -105,13 +106,13 @@ const Navbar = () => {
         </div>
         {user ? (
           <>
-            <button onClick={handleLogOut} className="btn btn-active btn-ghost">
+            <button onClick={handleLogOut} className="btn btn-outline btn-primary ">
               LogOut
             </button>
           </>
         ) : (
           <>
-            <Link to="/login" className="btn">
+            <Link to="/login" className="btn btn-outline btn-primary">
               Login
             </Link>
           </>

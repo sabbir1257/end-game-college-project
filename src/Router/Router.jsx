@@ -55,7 +55,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/college-view/:id",
+        path: "/viewCollege/:id",
         element: <CollegeViewDetails />,
       },
       {

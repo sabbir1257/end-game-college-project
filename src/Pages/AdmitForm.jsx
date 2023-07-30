@@ -49,15 +49,16 @@ const AdmitForm = () => {
   };
 
   return (
-    <div className="max-w-[740px] mt-10 mx-auto bg-slate-100 rounded-md">
-      <div className="px-8 py-4">
+    <div className="">
+      <h1 className="my-3 text-5xl text-center">Admit Form</h1>
+      <div className="px-8 py-4 max-w-[500px] my-10 mx-auto bg-[#f2f2f2] rounded-md">
         <form onSubmit={handleSubmit}>
           <label className="font-semibold">Name</label>
           <br />
           <input
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className="w-full p-3 mb-2 rounded-md border border-bg-[#05b6d1] text-slate-500"
+            className="w-full p-3 mb-2 border rounded-md text-slate-500"
             type="text"
             name="name"
             placeholder="Enter Your Name"
@@ -68,7 +69,7 @@ const AdmitForm = () => {
           <input
             readOnly
             value={user && user?.email}
-            className="w-full p-3 mb-2 rounded-md border border-bg-[#05b6d1]"
+            className="w-full p-3 mb-2 border rounded-md"
             type="email"
             name="email"
             id=""
@@ -80,7 +81,7 @@ const AdmitForm = () => {
           <input
             value={subject}
             onChange={(e) => setSubject(e.target.value)}
-            className="w-full p-3 mb-2 rounded-md border border-bg-[#05b6d1]"
+            className="w-full p-3 mb-2 border rounded-md"
             type="text"
             name="subject"
             placeholder="Enter Your Subject"
@@ -91,7 +92,7 @@ const AdmitForm = () => {
           <input
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
-            className="w-full p-3 mb-2 rounded-md border border-bg-[#05b6d1]"
+            className="w-full p-3 mb-2 border rounded-md"
             type="number"
             name="phone"
             id=""
@@ -103,7 +104,7 @@ const AdmitForm = () => {
           <input
             value={dateOfBirth}
             onChange={(e) => setDateOfBirth(e.target.value)}
-            className="w-full p-3 mb-2 rounded-md border border-bg-[#05b6d1]"
+            className="w-full p-3 mb-2 border rounded-md"
             type="date"
             name="dateOfBirth"
             id=""
@@ -114,7 +115,7 @@ const AdmitForm = () => {
           <br />
           <input
             onChange={(e) => setAddress(e.target.value)}
-            className="w-full p-3 mb-2 rounded-md border border-bg-[#05b6d1]"
+            className="w-full p-3 mb-2 border rounded-md"
             type="text"
             name="address"
             placeholder="Enter Your Address"
@@ -125,7 +126,7 @@ const AdmitForm = () => {
           <input
             value={image}
             onChange={(e) => setImage(e.target.value)}
-            className="w-full p-3 mb-3 rounded-md border border-bg-[#05b6d1]"
+            className="w-full p-3 mb-3 border rounded-md"
             type="text"
             name="image"
             alt=""
@@ -133,7 +134,7 @@ const AdmitForm = () => {
           />
           <br />
           <input
-            className="block w-full p-3 mx-auto mt-4 font-bold text-white rounded-md cursor-pointer"
+            className="w-full btn-primary btn "
             type="submit"
             value="Submit"
           />
