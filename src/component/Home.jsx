@@ -5,6 +5,7 @@ import Gallry from "./Gallry";
 import Marque from "./Marque";
 import HomeCollege from "./HomeCollege";
 import Contact from "../Pages/Contact";
+import Testimonial from "../Pages/Testimonial";
 
 const Home = () => {
   return (
@@ -13,9 +14,10 @@ const Home = () => {
         <title>College | Home</title>
       </Helmet>
       <Hero/>
-        <HomeCollege/>
+      <HomeCollege/>
       <Gallry/>
       <Contact/>
+      <Testimonial/>
       <Marque/>
     </div>
   );
