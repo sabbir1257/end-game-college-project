@@ -9,12 +9,12 @@ const CollegeViewDetails = () => {
     fetch(`https://server-peach-eta.vercel.app/viewCollege/${id}`)
       .then((res) => res.json())
       .then((data) => setViewCards(data));
-  }, []);
+  }, [id]);
   const { collegeImage, events, sports, collegeName, rating, admissionDates } =
     viewCard;
 
   return (
-    <div className="max-w-[1240px] mx-auto mt-16 px-3">
+    <div className="max-w-[1240px] mx-auto px-3 pb-8">
       <h1 className="mt-20 mb-16 text-3xl font-bold text-center">
         Top Rated Colleges in USA
       </h1>

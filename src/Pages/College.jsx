@@ -5,7 +5,7 @@ const College = () => {
     const [colleges , setCollege] = useState([]);
 
     useEffect(() => {
-        fetch("https://server-peach-eta.vercel.app/college")
+        fetch("https://server-peach-eta.vercel.app/allCollege")
         .then(res => res.json())
         .then(data => setCollege(data))
     } , [])

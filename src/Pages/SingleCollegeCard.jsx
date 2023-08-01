@@ -13,9 +13,9 @@ const SingleCollegeCard = ({singleData}) => {
       />
       <div className="card-body">
         <h2 className="card-title">{collegeName}</h2>
-        <p>Admission Date: {admissionDates}</p>
-        <p>Number Of Research: {number_of_research}</p>
-        <p>Rating: {rating}</p>
+        <p><span className='font-bold'>Admission Date:</span> {admissionDates}</p>
+        <p><span className='font-bold'>Number Of Research:</span> {number_of_research}</p>
+        <p><span className='font-bold'>Rating:</span> {rating}</p>
         <div className="justify-end card-actions">
         <button className="rounded-md btn btn-primary"><Link to={`/viewCollege/${_id}`}>View Details</Link></button>
         </div>
